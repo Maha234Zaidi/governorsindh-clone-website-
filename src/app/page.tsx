@@ -2,100 +2,210 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <>
+      <div className="flex">
+        <div className="m-16 ">
+          <h1 className="font-extrabold text-blue-900 text-7xl">
+            Governor Sindh
+          </h1>
+          <h2 className="font-semibold text-blue-900 text-5xl">
+            Kamran Khan Tessori
+          </h2>
+          <h1 className="font-bold text-blue-400 text-justify text-4xl leading-tight mt-4">
+            Certified Cloud <br /> Applied Generative AI <br /> Engineer
+            (GenEng)
+          </h1>
+          <p className="text-blue-900 font-bold text-xl pt-4">
+            Earn up to $5,000 / month
+          </p>
+          <p className="text-blue-900 font-bold text-2xl pt-3">
+            Now admissions are open in <br />
+            Hyderabad
+          </p>
+          <button className="bg-blue-900 rounded-lg text-white font-extrabold w-full text-center text-sm tracking-widest transition-all hover:translate-y-1 hover:bg-blue-400 sm:py-4 sm:text-base md:w-52 h-14">
+            APPLY NOW
+          </button>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+          <button className="text-blue-900 font-extrabold  text-2xl leading-3 m-9">
+            562,143 <br />
+            <span className="text-sm font-normal">Accepted Applications </span>
+          </button>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+
+        <Image
+          src={"/image.1.png"}
+          alt="cover"
+          width={600}
+          height={500}
+          className="mt-12 "
+        ></Image>
+      </div>
+
+      <div className="mt-12">
+        <h1 className="text-blue-900 font-extrabold text-center text-3xl">
+          Certified Cloud Applied Generative AI Engineer (GenEng) and
+          Solopreneur Developing Billion-Dollar Valued Developers and
+          Solopreneurs
+        </h1>
+
+        <p className="text-center text-2xl mt-10 tracking-normal text-gray-700 ">
+          The pace of technological change is accelerating, big players like
+          Microsoft, Amazon, Google, and OpenAI are winning by providing
+          infrastructure, large AI foundation models, frameworks, 3D Metaverse
+          experiences, and massive distribution networks. Solopreneurs trained
+          in this program will win by automating work typically outsourced to
+          employees, by directly connecting to customers by eliminating the
+          middleman, and by developing vertical metaverses, thus paving the way
+          for the first billion-dollar valued solopreneur businesses. This
+          program has the objective to train this new breed of billion-dollar
+          solopreneurs. These solopreneurs will adopt the ultra-lean business
+          model and work independently and will not need to hire employees or
+          other team members.
+        </p>
+      </div>
+
+      <div className="m-14 flex space-x-16">
+        <Image
+          src={"/image2.jpg"}
+          alt="pic"
+          width={300}
+          height={100}
+          className="rounded-3xl bg-yellow-700 shadow-2xl"
+        ></Image>
+        <Image
+          src={"/image3.jpg"}
+          alt="pic"
+          width={300}
+          height={100}
+          className="rounded-3xl bg-yellow-700 shadow-2xl"
+        ></Image>
+        <Image
+          src={"/image4.jpg"}
+          alt="pic"
+          width={300}
+          height={100}
+          className="rounded-3xl bg-yellow-700 shadow-2xl"
+        ></Image>
+      </div>
+
+      <div className="flex space-x-3 m-16">
+        <Image
+          src={"/image5.jpg"}
+          alt="pic"
+          width={500}
+          height={100}
+          className="rounded-3xl bg-yellow-700 shadow-2xl"
+        ></Image>
+        <Image
+          src={"/image6.jpg"}
+          alt="pic"
+          width={500}
+          height={100}
+          className="rounded-3xl bg-yellow-700 shadow-2xl"
+        ></Image>
+      </div>
+      <hr />
+      <div>
+        <h1 className="text-blue-900 font-bold m-16 text-4xl">
+          Core Courses Sequence
+        </h1>
+        <div className="flex space-x-8">
+          <div
+            className="border-black rounded-2xl shadow-2xl w-60 h-52 ml-16
+        hover:translate-y-1 "
+          >
+            <Image src={"/pro1.jpg"} alt="pic" width={300} height={100}></Image>
+            <p className="text-center font-bold">
+              Programming <br />
+              Fundamentals
+            </p>
+          </div>
+
+          <div
+            className="border-black rounded-2xl shadow-2xl w-60 h-52 ml-16
+        hover:translate-y-1 "
+          >
+            <Image src={"/pro2.jpg"} alt="pic" width={300} height={100}></Image>
+            <p className="text-center font-bold">
+              Programming <br />
+              Fundamentals
+            </p>
+          </div>
+
+          <div
+            className="border-black rounded-2xl shadow-2xl w-60 h-52 ml-16
+        hover:translate-y-1 "
+          >
+            <Image src={"/pro3.jpg"} alt="pic" width={300} height={100}></Image>
+            <p className="text-center font-bold">
+              Programming <br />
+              Fundamentals
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        {" "}
+        <h1 className="text-blue-900 font-bold m-16 text-4xl">
+          Advanced Courses{" "}
+        </h1>
+        <div className="flex space-x-5">
+          <div
+            className="border-black rounded-2xl shadow-2xl w-60 h-52 ml-16
+        hover:translate-y-1 "
+          >
+            <Image src={"/ai.jpg"} alt="pic" width={300} height={100}></Image>
+            <p className="text-center font-bold p-2">Artificial Intelligence</p>
+          </div>
+
+          <div
+            className="border-black rounded-2xl shadow-2xl w-60 h-52 ml-16
+        hover:translate-y-1 "
+          >
+            <Image src={"/w3.jpg"} alt="pic" width={300} height={100}></Image>
+            <p className="text-center font-bold p-2">Web 3 & Metaverse</p>
+          </div>
+
+          <div
+            className="border-black rounded-2xl shadow-2xl w-60 h-52 ml-16
+        hover:translate-y-1 "
+          >
+            <Image src={"/cnc.jpg"} alt="pic" width={300} height={100}></Image>
+            <p className="text-center font-bold p-2">Cloud-Native Computing</p>
+          </div>
+
+          <div
+            className="border-black rounded-2xl shadow-2xl w-60 h-52 ml-16
+        hover:translate-y-1 "
+          >
+            <Image src={"/np.jpg"} alt="pic" width={300} height={100}></Image>
+            <p className="text-center font-bold p-2">Network Programmability</p>
+          </div>
+        </div>
+        <div className="flex space-x-5 mt-5">
+          <div
+            className="border-black rounded-2xl shadow-2xl w-60 h-52 ml-16
+        hover:translate-y-1 "
+          >
+            <Image src={"/aci.jpg"} alt="pic" width={300} height={100}></Image>
+            <p className="text-center font-bold p-2">
+              Ambient Computing and IoT
+            </p>
+          </div>
+
+          <div
+            className="border-black rounded-2xl shadow-2xl w-60 h-52 ml-16
+        hover:translate-y-1 "
+          >
+            <Image src={"/gndb.jpg"} alt="pic" width={300} height={100}></Image>
+            <p className="text-center font-bold p-2">
+              Genomics and Bioinformatics
+            </p>
+          </div>
+        </div>
+      </div>
+      <br />
+    </>
   );
 }
